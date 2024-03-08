@@ -5,7 +5,7 @@ import selecionar_produto_page from "../support/page/selecionar_produto_page"
 
 describe ('Selecionar produto para compra', () => {
     
-    beforeEach ('Acessar site de compra', () => {
+    beforeEach('Acessar site de compra', () => {
         commun_page.acessarSiteCompra()
 
     })
@@ -23,9 +23,10 @@ describe ('Selecionar produto para compra', () => {
     })
 
     it('Adicionar produto no carrinho', () => {
-       selecionar_produto_page.selecionarCategoria()
-        selecionar_produto_page.selecionarProduto()
-        selecionar_produto_page.adicionarCarrinho()
+      // selecionar_produto_page.selecionarCategoria()
+      // selecionar_produto_page.selecionarProduto()
+      //  selecionar_produto_page.adicionarCarrinho()
+      selecionar_produto_page.selecionarProdutoCompra()
 
     })
 } )

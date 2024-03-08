@@ -24,6 +24,11 @@ export default {
          cy.get('.single_add_to_cart_button')
            .click()
 
+      },
 
-      }
+       selecionarProdutoCompra() { 
+        this.selecionarCategoria()
+        this.selecionarProduto()
+        this.adicionarCarrinho()
  }
+}
