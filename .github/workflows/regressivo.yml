@@ -11,10 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npm start
-          wait-on: 'http://localhost:3000' 
           record: true
-          parallel: true # Runs test in parallel using settings above
         env:
           CYPRESS_RECORD_KEY: 69a65331-2ff1-4f42-9ae4-4aceea433b1e
           
