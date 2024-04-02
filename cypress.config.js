@@ -1,8 +1,8 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: 'djp1os',
-  e2e: {
+  projectId: 'j2df47',
+   e2e: {
     baseUrl: 'https://practice.automationtesting.in', 
     defaultCommandTimeout: 15000,
     viewportWidth: 1920,
